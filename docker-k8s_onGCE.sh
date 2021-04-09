@@ -18,4 +18,4 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
-#sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=GCE_인스턴스_내부아이피
+
